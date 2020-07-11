@@ -1,0 +1,173 @@
+/* CSS Document */
+body{
+background-image:url(../img/bg.jpg);
+background-attachment:fixed;
+background-repeat:repeat;
+}
+
+
+TH {
+color : #FFFFFF;
+background-color : #336699;
+border-width: 1px ;
+border-style:solid;
+border-color :black;
+
+}
+
+
+#container{
+margin-top:2%;
+margin-left:12%;
+margin-right:12%;
+margin-bottom:auto;
+background-color:no;
+
+height:auto;
+}
+
+.header{
+background-color:white;
+
+
+margin-left:10%;
+margin-right:10%;
+
+-moz-box-shadow: 0 0 5px 5px black;
+-webkit-box-shadow: 0 0 5px 5px black;
+box-shadow: 0 0 5px 5px black;
+}
+
+.conten{
+background-color:white;
+height:auto;
+margin-top:30px;
+margin-left:10%;
+margin-right:10%;
+padding-top:10px;
+-moz-box-shadow: 0 0 5px 5px black;
+-webkit-box-shadow: 0 0 5px 5px black;
+box-shadow: 0 0 5px 5px black;
+}
+
+#footer{
+background-color:white;
+margin-left:10%;
+margin-top:30px;
+margin-right:10%;
+color:black;
+height:50px;
+padding-top:21px;
+text-indent:40px;
+-moz-box-shadow: 0 0 5px 5px black;
+-webkit-box-shadow: 0 0 5px 5px black;
+box-shadow: 0 0 5px 5px black;
+
+}
+
+
+p {color:#000000;
+font-family:"Times New Roman", Times, serif;
+font-size:16px;
+padding-left:40px;
+padding-right:40px;
+text-align:justify;
+text-indent:40px;
+}
+
+.dropmenu {
+    background:WHITE;
+    height:30px;
+    list-style-type:katakana;
+	margin-top:20px;
+margin-left:10%;
+margin-right:10%;
+margin-bottom:0%;
+
+}
+.dropmenu li {
+    border-right: solid 1px black;
+    float: left;
+    height: 30px;
+}
+.dropmenu li a {
+    color: black;
+    display: block;
+    font: 12px arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+.dropmenu li:hover { background: white; position: relative; }
+.dropmenu li:hover a { text-decoration: underline; }
+.dropmenu li:hover ul {
+    background-color: black;
+    border: 1px solid navy;
+    left: 0px;
+    padding: 3px;
+    top: 30px;
+    width: 160px;
+}
+.dropmenu li:hover ul li { border: navy; height: 18px; }
+.dropmenu li:hover ul li a {
+    background-color: black;
+    border: 1px solid navy;
+    color: #fff;
+    display: block;
+    font-size: 11px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0px;
+    text-decoration: none;
+    text-indent: 5px;
+    width: 158px;
+    padding: 3px;
+}
+.dropmenu li:hover ul li a:hover {
+    background: blue;
+    border: solid 1px navy;
+    color: white;
+    height: 18px;
+    padding: 3px;
+}
+.dropmenu ul {
+    left: -9999px;
+    list-style-type: none;
+    position: absolute;
+    top: -9999px;
+}
+
+
+
+#trans{
+-moz-box-shadow: 0 0 5px 5px black;
+-webkit-box-shadow: 0 0 5px 5px black;
+box-shadow: 0 0 5px 5px black;
+}
+
+#navigation {
+padding-top:30px;
+	width:100%;
+	text-align:center;
+	font-family:Algerian;
+	font-size:18px;
+	}
+	
+	
+	
+/* Make row highlighted */
+.highlighted-row tbody tr:nth-hasil(1) {
+background:#cc3333; /* red */
+color:#fff;
+}/* End CSS for Highlighted Row in index2.html */
+	
+	
+	
+a:link{color:black;
+		text-decoration:blink;}
+a:visited{color:black;
+		text-decoration:blink;}
+a:hover{color:blue;
+		text-decoration:blink;}
+a:active{color:cyan;
+		text-decoration:blink;}
